@@ -1,3 +1,3 @@
 function dexecbash
-	docker exec -it $argv /bin/bash
+	sudo docker exec -it $argv /bin/bash
 end

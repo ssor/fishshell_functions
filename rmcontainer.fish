@@ -1,3 +1,3 @@
 function rmcontainer
-	docker container rm $argv
+	sudo docker container rm -f $argv
 end

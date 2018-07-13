@@ -1,3 +1,3 @@
 function drunbash
-	docker run -it $argv /bin/bash
+	sudo docker run -it $argv /bin/bash
 end
